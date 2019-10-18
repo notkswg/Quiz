@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <html lang="ja">
+  <head>
+    <title>Do you want to go in Japan?</title>
+    <meta charset="UTF-8">
+    <!--
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/sample1.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/sample2.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    document.addEventListener("deviceready", onDeviceReady, false);
+    function onDeviceReady() {
+
+        //東北地方
+        window.localStorage.setItem("key1", "北海道");
+        window.localStorage.setItem("key2", "青森県");
+        window.localStorage.setItem("key3", "岩手県");
+        window.localStorage.setItem("key4", "秋田県");
+        window.localStorage.setItem("key5", "山形県");
+        window.localStorage.setItem("key6", "宮城県");
+        window.localStorage.setItem("key7", "福島県");
+
+        //関東地方
+        window.localStorage.setItem("key8", "栃木県");
+        window.localStorage.setItem("key9", "茨城県");
+        window.localStorage.setItem("key10", "群馬県");
+        window.localStorage.setItem("key11", "東京都");
+        window.localStorage.setItem("key12", "千葉県");
+        window.localStorage.setItem("key13", "さいたま県");
+        window.localStorage.setItem("key14", "神奈川県");
+
+        //中部地方
+        window.localStorage.setItem("key15", "新潟県");
+        window.localStorage.setItem("key16", "長野県");
+        window.localStorage.setItem("key17", "山梨県");
+        window.localStorage.setItem("key18", "静岡県");
+        window.localStorage.setItem("key19", "愛知県");
+        window.localStorage.setItem("key20", "富山県");
+        window.localStorage.setItem("key21", "石川県");
+        window.localStorage.setItem("key22", "岐阜県");
+        window.localStorage.setItem("key23", "福井県");
+
+        //近畿地方
+        window.localStorage.setItem("key24", "滋賀県");
+        window.localStorage.setItem("key25", "京都府");
+        window.localStorage.setItem("key26", "大阪府");
+        window.localStorage.setItem("key27", "兵庫県");
+        window.localStorage.setItem("key28", "三重県");
+        window.localStorage.setItem("key29", "奈良県");
+        window.localStorage.setItem("key30", "和歌山県");
+
+        //中国地方
+        window.localStorage.setItem("key31", "鳥取県");
+        window.localStorage.setItem("key32", "島根県");
+        window.localStorage.setItem("key33", "岡山県");
+        window.localStorage.setItem("key34", "広島県");
+        window.localStorage.setItem("key35", "山口県");
+
+        //四国地方
+        window.localStorage.setItem("key36", "徳島県");
+        window.localStorage.setItem("key37", "香川県");
+        window.localStorage.setItem("key38", "愛媛県");
+        window.localStorage.setItem("key39", "高知県");
+
+        //九州地方
+        window.localStorage.setItem("key40", "福岡県");
+        window.localStorage.setItem("key41", "大分県");
+        window.localStorage.setItem("key42", "佐賀県");
+        window.localStorage.setItem("key43", "長崎県");
+        window.localStorage.setItem("key44", "熊本県");
+        window.localStorage.setItem("key45", "宮崎県");
+        window.localStorage.setItem("key46", "鹿児県");
+        window.localStorage.setItem("key47", "沖縄県");
+
+        //東北地方
+        window.localStorage.setItem("Q1", "ジンギスカン好き？");
+        window.localStorage.setItem("Q2", "りんご好き？");
+        window.localStorage.setItem("Q3", "ジャージャ麺好き？");
+        window.localStorage.setItem("Q4", "きりたんぽ好き？");
+        window.localStorage.setItem("Q5", "さくらんぼ好き？");
+        window.localStorage.setItem("Q6", "牛タン好き？");
+        window.localStorage.setItem("Q7", "喜多方らーめん好き？");
+
+        //関東地方
+        window.localStorage.setItem("Q8", "餃子好き？");
+        window.localStorage.setItem("Q9", "納豆好き？");
+        window.localStorage.setItem("Q10", "ネギ好き？");
+        window.localStorage.setItem("Q11", "日本好き？");
+        window.localStorage.setItem("Q12", "落花生好き？");
+        window.localStorage.setItem("Q13", "ワンパンマン好き？");
+        window.localStorage.setItem("Q14", "中華好き？");
+
+        //中部地方
+        window.localStorage.setItem("Q15", "ご飯好き？");
+        window.localStorage.setItem("Q16", "スキー好き？");
+        window.localStorage.setItem("Q17", "なし好き？");
+        window.localStorage.setItem("Q18", "静岡好き？");
+        window.localStorage.setItem("Q19", "車好き？");
+        window.localStorage.setItem("Q20", "蜃気楼好き？");
+        window.localStorage.setItem("Q21", "日本庭園好き？");
+        window.localStorage.setItem("Q22", "信長好き？");
+        window.localStorage.setItem("Q23", "あなたはメガネフェチですか？");
+
+        //近畿地方
+        window.localStorage.setItem("Q24", "湖のこと好き？");
+        window.localStorage.setItem("Q25", "趣ある歴史好き？");
+        window.localStorage.setItem("Q26", "お笑い好き？");
+        window.localStorage.setItem("Q27", "関西弁好き？");
+        window.localStorage.setItem("Q28", "「松坂」大輔、好き？");
+        window.localStorage.setItem("Q29", "大仏好き？");
+        window.localStorage.setItem("Q30", "梅好き？");
+
+        //中国地方
+        window.localStorage.setItem("Q31", "やっぱり砂丘好き？");
+        window.localStorage.setItem("Q32", "鳥取好き？");
+        window.localStorage.setItem("Q33", "鬼退治好き？");
+        window.localStorage.setItem("Q34", "お好み焼き、好き〜？");
+        window.localStorage.setItem("Q35", "毒いける？");
+
+        //四国地方
+        window.localStorage.setItem("Q36", "だってばよ342回？");
+        window.localStorage.setItem("Q37", "香川県好き？");
+        window.localStorage.setItem("Q38", "みかん好き？");
+        window.localStorage.setItem("Q39", "叩くの好き？");
+
+        //九州地方
+        window.localStorage.setItem("Q40", "ラーメンすいとーと？");
+        window.localStorage.setItem("Q41", "地獄めぐり好き？");
+        window.localStorage.setItem("Q42", "♪SAGA佐賀〜♪、はなわ好き？");
+        window.localStorage.setItem("Q43", "カステラ好き？");
+        window.localStorage.setItem("Q44", "ふりかけたい？");
+        window.localStorage.setItem("Q45", "どげんかせんといかん？");
+        window.localStorage.setItem("Q46", "ヤクす(ぎ)？");
+        window.localStorage.setItem("Q47", "ファミチキ好き？");
+    }
+    </script>
+  </head>
+  <body>
+    <h1>二択で決めよう！！</h1>
+    <p>あなたの行きたい県はどこ？</p>
+    <h2>問題</h2>
+    <div id="area1">準備はいい！？</div>
+    <h2>選択肢</h2>
+    <div id="text_s"></div>
+    <script type="text/javascript">
+    //初期設定
+    count=1; //問題番号
+    </script>
+    <input type="button" value="はい" onclick="sample1();">
+    <input type="button" value="いいえ" onclick="sample2();">
+  </body>
+</html>
